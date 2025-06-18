@@ -9,22 +9,22 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
-// Route
+// Email Route
 app.post("/api/contact", async (req, res) => {
   const { name, email, message } = req.body;
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "your-email@gmail.com", // 🔁 Replace this
-      pass: "your-app-password", // 🔁 Replace this with Gmail App Password
+      user: "emmxgraphix@gmail.com", // ✅ Your email
+      pass: "tluzvoroltwouioa", // ✅ Your Gmail App Password
     },
   });
 
   try {
     await transporter.sendMail({
       from: email,
-      to: "your-email@gmail.com", // 🔁 Where you want to receive the message
+      to: "emmxgraphix@gmail.com", // ✅ You’ll receive it here too
       subject: `Message from ${name}`,
       text: message,
     });
@@ -36,7 +36,7 @@ app.post("/api/contact", async (req, res) => {
   }
 });
 
-// Start the server
+// Start Server
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
