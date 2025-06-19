@@ -29,7 +29,8 @@ export function About() {
             <span className="text-blue-500 italic">A</span>bout Me
           </h2>
           <p className="text-gray-400 mt-4 text-lg max-w-2xl mx-auto">
-            A quick snapshot of who I am, what I do, and the skills that fuel my creativity.
+            A quick snapshot of who I am, what I do, and the skills that fuel my
+            creativity.
           </p>
         </div>
 
@@ -37,21 +38,34 @@ export function About() {
           {/* Left Column – Bio */}
           <div>
             <h3 className="text-2xl font-semibold mb-4">
-              Passionate <span className="text-blue-400">Graphic Designer</span> &{" "}
-              <span className="text-yellow-400">Visual Artist</span>
+              Passionate <span className="text-blue-400">Graphic Designer</span>{" "}
+              & <span className="text-yellow-400">Visual Artist</span>
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
               With over 5 years of experience in branding, digital art, and
               creative direction, I bring bold ideas to life through visual
-              storytelling. Whether you're building a brand or telling a story — I'm here to make it unforgettable.
+              storytelling. Whether you're building a brand or telling a story —
+              I'm here to make it unforgettable.
             </p>
 
             <ul className="space-y-2 text-sm text-gray-300">
-              <li><strong className="text-white">🎓 Education:</strong> Creative Arts Institute</li>
-              <li><strong className="text-white">🧠 Experience:</strong> 5+ years</li>
-              <li><strong className="text-white">📧 Email:</strong> olaoluwa.emmanuel@gmail.com</li>
-              <li><strong className="text-white">📍 City:</strong> Lagos, Nigeria</li>
-              <li><strong className="text-white">🧑‍💻 Freelance:</strong> Available</li>
+              <li>
+                <strong className="text-white">🎓 Education:</strong> Creative
+                Arts Institute
+              </li>
+              <li>
+                <strong className="text-white">🧠 Experience:</strong> 5+ years
+              </li>
+              <li>
+                <strong className="text-white">📧 Email:</strong>
+                emmxgraphix@gmail.com
+              </li>
+              <li>
+                <strong className="text-white">📍 City:</strong> Lagos, Nigeria
+              </li>
+              <li>
+                <strong className="text-white">🧑‍💻 Freelance:</strong> Available
+              </li>
             </ul>
 
             <a

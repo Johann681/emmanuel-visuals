@@ -8,14 +8,12 @@ export default function Home() {
       id="home"
       className="min-h-screen bg-neutral-950 text-white flex items-center"
     >
-      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12 ">
         {/* Text Content */}
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="md:w-1/2 text-center md:text-left mt-20">
           <h3 className="text-2xl md:text-3xl font-light mb-2">
             Welcome, my name is{" "}
-            <span className="font-bold text-blue-400">
-              Olaoluwa Emmanuel
-            </span>
+            <span className="font-bold text-blue-400">Olaoluwa Emmanuel</span>
           </h3>
           <h1 className="text-4xl md:text-5xl font-semibold mb-4 leading-tight">
             I am a{" "}
@@ -29,7 +27,7 @@ export default function Home() {
             design.
           </p>
           <a
-            href="https://wa.link/r073gi"
+            href="https://wa.me/2349073553816"
             target="_blank"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition duration-300"
           >
@@ -39,12 +37,11 @@ export default function Home() {
 
         {/* Image */}
         <div className="md:w-1/2">
-        <img
-  src={profileImg}
-  alt="Olaoluwa Emmanuel"
-  className="rounded-2xl shadow-2xl w-full max-w-sm mx-auto"
-/>
-
+          <img
+            src={profileImg}
+            alt="Olaoluwa Emmanuel"
+            className="rounded-2xl shadow-2xl w-full max-w-sm mx-auto"
+          />
         </div>
       </div>
     </section>
